@@ -15,6 +15,8 @@
     if (self) {
         self.name = dictionary[@"name"];
         self.screenName = dictionary[@"screen_name"];
+        //self.hasProfile = [NSNumber numberWithBool:dictionary[@"default_profile_image"]];
+        self.profileImageURL = dictionary[@"profile_image_url_https"];
     }
     return self;
 }

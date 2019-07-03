@@ -20,5 +20,18 @@
 
     // Configure the view for the selected state
 }
+- (IBAction)didTapFavorite:(id)sender
+{
+    self.tweet.favorited = YES;
+    self.tweet.favoriteCount += 1;
+    NSLog(@"%d", self.tweet.favoriteCount);
+    [self refreshData];
+}
+- (void)refreshData
+{
+    self.favoritedCount.text = [NSString stringWithFormat:@"%d", self.tweet.favoriteCount];
+    
+    self.favoriteButton.imageView.image = [UIImage imageNamed:@"favor-icon-red"];
+}
 
 @end

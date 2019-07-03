@@ -8,7 +8,8 @@ target 'twitter' do
   # Pods for twitter
   pod 'AFNetworking'
   pod 'BDBOAuth1Manager'
-  pod 'TTTAttributedLabel'
+  pod 'SVProgressHUD'
+
 
 end
 

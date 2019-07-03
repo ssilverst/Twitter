@@ -12,7 +12,9 @@
 
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *screenName;
-
+// Add any additional properties here
+//@property (strong, nonatomic) NSObject *hasProfile;
+@property (strong, nonatomic) NSString *profileImageURL;
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 
