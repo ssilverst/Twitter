@@ -17,6 +17,12 @@
         self.screenName = dictionary[@"screen_name"];
         //self.hasProfile = [NSNumber numberWithBool:dictionary[@"default_profile_image"]];
         self.profileImageURL = dictionary[@"profile_image_url_https"];
+        self.followingCount = [NSString  stringWithFormat:@"%@", dictionary[@"friends_count"]];
+        self.followerCount = [NSString  stringWithFormat:@"%@", dictionary[@"followers_count"]];
+        self.tweetCount = [NSString  stringWithFormat:@"%@", dictionary[@"statuses_count"]];
+
+        self.userDescription = dictionary[@"description"];
+        self.profileBannerURL = dictionary[@"profile_banner_url"];
     }
     return self;
 }

@@ -16,24 +16,28 @@ PODS:
     - AFNetworking/NSURLSession
   - BDBOAuth1Manager (2.0.0):
     - AFNetworking/NSURLSession (~> 3.0.0)
+  - DateTools (2.0.0)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - AFNetworking
   - BDBOAuth1Manager
+  - DateTools
   - SVProgressHUD
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - BDBOAuth1Manager
+    - DateTools
     - SVProgressHUD
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
   BDBOAuth1Manager: 92d17d06f8a648602962304cd2f35ae7394fa001
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 489a90f331f649d4f27f44d82de7f6674f1730b7
+PODFILE CHECKSUM: 950226431c3010a132be38b2012862808b4cf0ed
 
 COCOAPODS: 1.7.2

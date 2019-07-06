@@ -9,7 +9,7 @@ target 'twitter' do
   pod 'AFNetworking'
   pod 'BDBOAuth1Manager'
   pod 'SVProgressHUD'
-
+  pod 'DateTools'
 
 end
 
