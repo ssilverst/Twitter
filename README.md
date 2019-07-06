@@ -47,7 +47,7 @@ The following **additional** features are implemented:
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
 1. I would like to discuss refactoring because I copied and pasted my code a lot throughout the project. Generally, I wish my code was prettier and had more functions and reusability. 
-2. I would also like to discuss further
+2. I would also like to discuss further how to manage time and tasks when there is a lot of tasks to be done. I definitely wanted to finish a lot more than I got done.
 
 ## Video Walkthrough
 
@@ -58,15 +58,15 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I think this app was very challenging because of the push on individual coding. I think that for me none of the coding parts were particularly challenging, the most challenging parts was just putting everything together and managing all the different view controllers and different states of the app. 
 
 ## Credits
 
 List an 3rd party libraries, icons, graphics, or other assets you used in your app.
 
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - networking task library
-- [DateTools] - display time since
-- [SVProgressHUD] - loading bar
+- [DateTools](https://github.com/MatthewYork/DateTools) - display time since
+- [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD) - loading bar
 
 ## License
 
