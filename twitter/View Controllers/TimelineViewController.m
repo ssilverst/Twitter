@@ -105,7 +105,6 @@
 }
 - (void)tweetCell:(TweetCell *)tweetCell didTap:(User *)user{
     [self performSegueWithIdentifier:@"profileSegue" sender:user];
-
 }
 - (void)didTweet:(Tweet *)tweet
 {

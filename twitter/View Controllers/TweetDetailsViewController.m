@@ -49,7 +49,7 @@
     [self.profileImage setImageWithURL:profileURL];
 }
 - (IBAction)dismissTweetDeets:(id)sender {
-        [self dismissViewControllerAnimated:true completion:nil];
+    [self dismissViewControllerAnimated:true completion:nil];
 }
 - (IBAction)didTapFavorite:(id)sender
 {
